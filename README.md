@@ -1,5 +1,6 @@
 # Responsive Landing Page
 A clean, modern, and fully responsive landing page built with HTML and CSS.
+
 ## Tools
 - HTML
 - CSS3(Flexbox, Grid, Media Queries)
