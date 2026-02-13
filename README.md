@@ -7,10 +7,14 @@ A clean, modern, and fully responsive landing page built with HTML and CSS.
 - Flexbox
 - Media Queries
 
-## Features
-- Responsive navbar
-- Hero section
-- Footer
+## 🚀 Features
+- Responsive Navigation Bar  
+- Hero Section with Profile Photo  
+- About Me Section  
+- Skills Section  
+- Contact Section  
+- Footer with Social Links  
+- Mobile Responsive Design (Media Queries)
 
 ![Landing Page Preview](screenshot1.png)
 
