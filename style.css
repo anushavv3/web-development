@@ -1,16 +1,15 @@
 
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
 }
-
 
 html{
     scroll-behavior:smooth;
 }
-
 
 body{
     background:#d89242;
@@ -22,36 +21,40 @@ body{
     justify-content:space-between;
     align-items:center;
     padding:18px 60px;
-    background:#e5e5e5;
+    background:rgba(248, 248, 248, 0.897);;
     margin:20px;
     border-radius:15px;
+    flex-wrap:wrap;
 }
 
 .logo{
     color:#d89242;
 }
 
-nav a{
+.nav-links a{
     margin-left:25px;
     text-decoration:none;
     color:black;
-    font-weight:500;
+    font-weight:bold;
+
 }
 
-nav a:hover{
+.nav-links a:hover{
     color:#d89242;
 }
+
 
 
 .hero{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:#e5e5e5;
+    background:rgba(248, 248, 248, 0.897);
     margin:60px auto;
     padding:60px;
     width:75%;
     border-radius:20px;
+    flex-wrap:wrap;
 }
 
 .hero-text h1{
@@ -61,9 +64,8 @@ nav a:hover{
 
 .subtitle{
     margin-bottom:25px;
-    color:#444;
+    color:rgb(62, 60, 60);
 }
-
 
 .btn{
     background:#d89242;
@@ -78,7 +80,6 @@ nav a:hover{
 .btn:hover{
     background:#c07f35;
 }
-
 
 .circle{
     width:240px;
@@ -97,11 +98,9 @@ nav a:hover{
     object-fit:cover;
 }
 
-
 .section{
     width:75%;
     margin:60px auto;
-    
 }
 
 .section h2{
@@ -109,30 +108,126 @@ nav a:hover{
 }
 
 
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
 .about-points{
     margin-top:15px;
     padding-left:20px;
+    line-height:1.7;
+    font-size:15px;
 }
 
 .about-points li{
     margin-bottom:8px;
+     line-height: 1.6;
 }
+
 
 
 .skills-list{
     margin-top:15px;
     padding-left:20px;
+    font-size:15px;
 }
 
 .skills-list li{
     margin-bottom:10px;
+    
 }
-
 
 footer{
     background:black;
     color:white;
     text-align:center;
-    padding:15px;
+    padding:30px 20px;
     margin-top:50px;
+}
+.footer-contact{
+    margin-bottom: 17px;
+}
+
+
+
+.footer-social{
+    margin-bottom:10px;
+}
+
+.footer-social a{
+    color:white;
+    text-decoration:none;
+    margin:0 25px;
+    font-weight:500;
+    
+}
+
+.footer-social a:hover{
+    color:#d89242;
+}
+
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        text-align:center;
+        gap:15px;
+        padding:20px;
+    }
+
+    .nav-links{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .nav-links a{
+        margin:0;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        width:90%;
+        padding:40px 25px;
+    }
+
+    .hero-image{
+        margin-top:30px;
+    }
+
+    .section{
+        width:90%;
+        padding: 20px 15px;
+    }
+
+    .circle{
+        width:200px;
+        height:200px;
+    }
+    .about h2 {
+        font-size: 24px;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
+
+    .about-points li {
+        font-size: 14px;
+    }
+    .skills {
+        margin-top: 0;
+    }
+    
+
+
 }
